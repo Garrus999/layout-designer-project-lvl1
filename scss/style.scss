@@ -1,0 +1,10 @@
+$color-main: green;
+$color-secondary: yellow;
+
+body {
+    background-color: $color-main;
+}
+
+h1 {
+    color: $color-secondary;
+}
