@@ -11,13 +11,8 @@
 // === / Mixins === 
 
 
-.section-header {
-    position: relative;
-    z-index: 1;
-
-    max-width: 1110px;
-    margin: 0 auto;
-    padding: 100px 20px;
+header {
+    display: flex;
 }
 
 
@@ -47,22 +42,67 @@
 }
 
 
-
 .section-header {
+    position: relative;
+    
+    
+    .section-inner {
+        height: 100vh;
+        position: relative;
+        z-index: 10;
+        display: flex;
+        flex-direction: column;
+    }
     
     
     .section-header-content {
+        display: flex;
+        align-items: center;
+        flex-grow: 1;
         
         .section-header-wrapper {
+            display: flex;
             
-            section-header-wrapper_title {
+            .title-black {
+                position: absolute;
+                width: 1138px;
+                height: 73.71px;
+                left: 165px;
+                top: 284.29px;
+
+                font-family: Neucha;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 72px;
+                line-height: 100%;
+                color: #2A2626;
                 
-                
+            }
+            .title-orange {
+                position: absolute;
+                width: 1138px;
+                height: 177.12px;
+                left: 165px;
+                top: 100px;
+
+                font-family: Neucha;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 72px;
+                line-height: 86px;
+                color: #FE8A02;
+            }
+            
             }
             .section-header-wrapper_img {
                 
-                
+                position: absolute;
+                width: 1082.81px;
+                height: 525px;
+                left: 461px;
+                top: 55px;
             }
+        
             .section-header-wrapper_text{
                 
                 
@@ -73,4 +113,3 @@
             
         }
     }
-}
