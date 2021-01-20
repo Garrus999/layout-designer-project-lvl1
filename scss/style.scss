@@ -20,7 +20,7 @@
     padding: 100px 20px;
 }
 
-/*
+
 
 .bg-img {
     position: relative;
@@ -28,7 +28,7 @@
 }
 
 
-.bg-img::before {
+.bg-img:before {
     position: absolute;
     top: 0;
     right: 0;
@@ -39,12 +39,14 @@
     background-position: center;
     background-size: cover;
     background-attachment: scroll;
-    opacity: 0.1;
+    opacity: 90%;
+    
+    content: '';
    
     
 }
 
-*/
+
 
 .section-header {
     
