@@ -302,36 +302,3 @@ template {
  */
 [hidden] {
   display: none; }
-
-.section-header {
-  position: relative;
-  z-index: 1;
-  max-width: 1110px;
-  margin: 0 auto;
-  padding: 100px 20px; }
-
-/*
-
-.bg-img {
-    position: relative;
-    
-}
-
-
-.bg-img::before {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-image: url(../image/image%201.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: scroll;
-    opacity: 0.1;
-   
-    
-}
-
-*/

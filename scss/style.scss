@@ -1,10 +1,74 @@
-$color-main: green;
-$color-secondary: yellow;
+@import 'normalize.scss';
 
-body {
-    background-color: $color-main;
+// === Mixins ===
+@mixin font-Neucha {
+    font-family: 'Neucha', sans-serif;
+}
+@mixin font-OpenSans {
+    font-family: 'OpenSans', sans-serif;
 }
 
-h1 {
-    color: $color-secondary;
+// === / Mixins === 
+
+
+.section-header {
+    position: relative;
+    z-index: 1;
+
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 100px 20px;
+}
+
+/*
+
+.bg-img {
+    position: relative;
+    
+}
+
+
+.bg-img::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url(../image/image%201.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    opacity: 0.1;
+   
+    
+}
+
+*/
+
+.section-header {
+    
+    
+    .section-header-content {
+        
+        .section-header-wrapper {
+            
+            section-header-wrapper_title {
+                
+                
+            }
+            .section-header-wrapper_img {
+                
+                
+            }
+            .section-header-wrapper_text{
+                
+                
+            }
+        }
+        .section-header-wrapper_link {
+            
+            
+        }
+    }
 }
