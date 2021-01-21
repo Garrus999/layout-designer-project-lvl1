@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -296,8 +297,19 @@ template {
 [hidden] {
   display: none; }
 
-html {
-  overflow: hidden; }
+header p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px; }
+
+header a {
+  font-family: Open Sans;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 160%;
+  text-decoration: none; }
 
 .bg-img {
   position: relative; }
@@ -319,11 +331,9 @@ html {
 .section-header {
   position: relative;
   z-index: 1;
-  max-width: 1110px;
   margin: 0 auto;
   padding: 100px 20px; }
   .section-header .section-inner {
-    max-width: 1110px;
     margin-right: auto;
     margin-left: auto;
     padding-right: 30px;
@@ -366,22 +376,25 @@ html {
       top: 55px; }
     .section-header .section-header-content .section-header-wrapper_text {
       display: flex;
-      position: relative;
-      justify-content: center;
-      padding: 50px; }
+      justify-content: space-between;
+      padding: 400px 0px;
+      /*Ссылка*/ }
       .section-header .section-header-content .section-header-wrapper_text .text_header1 {
-        font-family: Open Sans;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 26px;
-        color: #2A2626; }
+        padding-top: 20px;
+        align-items: flex-end;
+        padding: 30px;
+        padding-left: 100px;
+        width: 550px; }
       .section-header .section-header-content .section-header-wrapper_text .text_header2 {
-        font-family: Open Sans;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 26px;
-        /* or 160% */
-        /* Text */
-        color: #2A2626; }
+        padding-top: 30px;
+        width: 550px;
+        padding-bottom: 30px; }
+      .section-header .section-header-content .section-header-wrapper_text .header-link {
+        background-color: #FE8A02;
+        padding: 10px 20px;
+        color: white;
+        border-radius: 2px; }
+      .section-header .section-header-content .section-header-wrapper_text .text-bold {
+        font-weight: bold; }
+      .section-header .section-header-content .section-header-wrapper_text .uppercase {
+        text-transform: uppercase; }
