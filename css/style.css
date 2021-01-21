@@ -296,8 +296,8 @@ template {
 [hidden] {
   display: none; }
 
-header {
-  display: flex; }
+html {
+  overflow: hidden; }
 
 .bg-img {
   position: relative; }
@@ -317,13 +317,17 @@ header {
   content: ''; }
 
 .section-header {
-  position: relative; }
+  position: relative;
+  z-index: 1;
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 100px 20px; }
   .section-header .section-inner {
-    height: 100vh;
-    position: relative;
-    z-index: 10;
-    display: flex;
-    flex-direction: column; }
+    max-width: 1110px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 30px;
+    padding-left: 30px; }
   .section-header .section-header-content {
     display: flex;
     align-items: center;
@@ -360,3 +364,24 @@ header {
       height: 525px;
       left: 461px;
       top: 55px; }
+    .section-header .section-header-content .section-header-wrapper_text {
+      display: flex;
+      position: relative;
+      justify-content: center;
+      padding: 50px; }
+      .section-header .section-header-content .section-header-wrapper_text .text_header1 {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        color: #2A2626; }
+      .section-header .section-header-content .section-header-wrapper_text .text_header2 {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        /* or 160% */
+        /* Text */
+        color: #2A2626; }
