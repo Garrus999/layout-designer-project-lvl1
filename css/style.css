@@ -393,7 +393,8 @@ header a {
         background-color: #FE8A02;
         padding: 10px 20px;
         color: white;
-        border-radius: 2px; }
+        border-radius: 2px;
+        margin: 12px 17px; }
       .section-header .section-header-content .section-header-wrapper_text .text-bold {
         font-weight: bold; }
       .section-header .section-header-content .section-header-wrapper_text .uppercase {
