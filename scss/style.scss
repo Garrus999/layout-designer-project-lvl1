@@ -52,19 +52,20 @@ header a {
     
 }
 
+.overflow-hidden {
+    overflow: hidden;
+}
 
 .section-header {
-    position: relative;
-    z-index: 1;
-    margin: 0 auto;
-    padding: 100px 20px;
     
     
     .section-inner {  
-       margin-right: auto;
-       margin-left: auto;
-       padding-right: 30px;
-       padding-left: 30px;
+        position: relative;
+        z-index: 1;
+    
+        max-width: 1110px;
+        margin: 0 auto;
+        padding: 100px 200px;
   
     }
     
@@ -76,7 +77,7 @@ header a {
         
         .section-header-wrapper {
             display: flex;
-            
+           
             .title-black {
                 position: absolute;
                 width: 1138px;
@@ -112,7 +113,6 @@ header a {
                 
                 position: absolute;
                 width: 1082.81px;
-                height: 525px;
                 left: 461px;
                 top: 55px;
             }
@@ -121,14 +121,14 @@ header a {
                 
                 display: flex;
                 justify-content: space-between;
-                padding: 400px 0px;
+                padding-top: 400px;
                 
                 
                 .text_header1 {
-                   padding-top: 20px;
+                   padding-top: 30px;
                    align-items: flex-end; 
-                    padding: 30px;
-                    padding-left: 100px;
+                    
+                    
                     width: 550px;
                     
                     
@@ -138,17 +138,21 @@ header a {
                     padding-top: 30px;
                     width: 550px;
                     padding-bottom: 30px;
-                    
+                    margin-left: 30px;
+                    margin-bottom: 30px;
                 }
                     
                                 /*Ссылка*/
     .header-link {
         background-color: #FE8A02;
-        padding: 10px 20px;
+        padding: 13px 23px;
         color: white;
         border-radius: 2px;
-        margin: 12px 17px;
+        
 
+    }
+    .margin-link {
+        margin: 40px 17px 0px auto;
     }
     .text-bold {
         font-weight: bold;
@@ -161,4 +165,10 @@ header a {
 
     }
     }
+    }
+
+
+
+    .section-promo {
+        margin: 0px;
     }
