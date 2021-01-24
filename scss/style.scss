@@ -65,7 +65,7 @@ header a {
     
         max-width: 1110px;
         margin: 0 auto;
-        padding: 100px 200px;
+        padding: 100px 200px 0px 200px;
   
     }
     
@@ -170,5 +170,57 @@ header a {
 
 
     .section-promo {
-        margin: 0px;
+        margin: auto;
+        display: flex;
+        
+        
+
+        .section-inner {
+
+            .title1 {
+                text-align: center;
+                
+
+            
+
+            .title-black1 {
+                font-family: Neucha;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 60px;
+                line-height: 72px;
+                color: #2A2626;
+                ;
+
+            }
+            .title-orange1 {
+                font-family: Neucha;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 60px;
+                line-height: 72px;
+                color: #FE8A02;
+
+            }
+
+            .text-promo {
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 160%;
+                color: #212529;
+
+            }
+        }
+
+        .video-promo {
+            margin: 0px 260px;
+        }
     }
+}
+
+                         /*Navigation*/
+ .bg-dark {
+    background-color: #42413C;
+ }  
