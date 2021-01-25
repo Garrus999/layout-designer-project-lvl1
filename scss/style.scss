@@ -57,6 +57,7 @@ header a {
 }
 
 .section-header {
+    padding-bottom: 100px;
     
     
     .section-inner {  
@@ -170,8 +171,9 @@ header a {
 
 
     .section-promo {
-        margin: auto;
+        
         display: flex;
+        justify-content: center;
         
         
 
@@ -179,6 +181,7 @@ header a {
 
             .title1 {
                 text-align: center;
+                
                 
 
             
@@ -190,7 +193,7 @@ header a {
                 font-size: 60px;
                 line-height: 72px;
                 color: #2A2626;
-                ;
+                
 
             }
             .title-orange1 {
@@ -213,9 +216,10 @@ header a {
 
             }
         }
-
+        
         .video-promo {
-            margin: 0px 260px;
+            padding: 0px;
+           
         }
     }
 }
@@ -223,4 +227,47 @@ header a {
                          /*Navigation*/
  .bg-dark {
     background-color: #42413C;
+    padding-top: 300px;
+    
  }  
+  
+  .section-nav {
+      padding-top: 300px;
+
+    .section-inner {
+
+        .container-nav h1 {
+            margin: 0px;
+        }
+
+        .container-nav {
+            
+
+            .title-orange2 {
+
+            }
+            .title-white2 {
+
+            }
+
+            .card {
+
+                display: block;
+                height: 100%;
+
+                .card-number {
+
+                }
+
+                .card-title {
+
+                }
+
+                .card-text {
+
+                }
+            }
+        }
+    }
+
+ }
