@@ -297,6 +297,10 @@ template {
 [hidden] {
   display: none; }
 
+p, h1 {
+  margin: 0px;
+  padding: 0px; }
+
 header p {
   font-family: Open Sans;
   font-style: normal;
@@ -380,11 +384,11 @@ header a {
       padding-top: 400px;
       /*Ссылка*/ }
       .section-header .section-header-content .section-header-wrapper_text .text_header1 {
-        padding-top: 30px;
+        padding-top: 50px;
         align-items: flex-end;
         width: 550px; }
       .section-header .section-header-content .section-header-wrapper_text .text_header2 {
-        padding-top: 30px;
+        padding-top: 50px;
         width: 550px;
         padding-bottom: 30px;
         margin-left: 30px;
@@ -442,29 +446,53 @@ header a {
     justify-content: center;
     text-decoration: none;
     padding-top: 200px;
-    padding-bottom: 100px; }
-    .section-nav .section-inner .container-nav .title-card {
-      max-width: 350px;
-      margin-right: 30px;
-      margin-bottom: 20px; }
-      .section-nav .section-inner .container-nav .title-card .title-orange2 {
-        font-family: Neucha;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 52px;
-        line-height: 120%;
-        color: #FE8A02; }
-      .section-nav .section-inner .container-nav .title-card .title-white2 {
-        font-family: Neucha;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 52px;
-        line-height: 120%;
-        color: #F5F4F0; }
-    .section-nav .section-inner .container-nav .card {
-      text-decoration: none;
-      background-color: #F5F4F0;
-      margin-right: 30px;
-      margin-bottom: 20px;
-      height: 348px;
-      width: 350px; }
+    padding-bottom: 100px;
+    max-width: 1200px;
+    align-items: stretch;
+    margin: 0 auto; }
+    .section-nav .section-inner .container-nav .title-orange2 {
+      font-family: Neucha;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 52px;
+      line-height: 120%;
+      color: #FE8A02; }
+    .section-nav .section-inner .container-nav .title-white2 {
+      font-family: Neucha;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 52px;
+      line-height: 120%;
+      color: #F5F4F0; }
+  .section-nav .section-inner .title-card {
+    max-width: 350px;
+    margin: 15px; }
+  .section-nav .section-inner .card {
+    text-decoration: none;
+    max-width: 350px;
+    background-color: #f5f4f0;
+    margin: 15px; }
+    .section-nav .section-inner .card .card-number {
+      font-family: Neucha, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 64px;
+      line-height: 70px;
+      padding: 24px 0px 0px 24px;
+      color: #42413C; }
+    .section-nav .section-inner .card .card-title {
+      font-family: Neucha;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 34px;
+      line-height: 120%;
+      padding: 40px 24px 0px 24px;
+      color: #FE8A02; }
+    .section-nav .section-inner .card .card-text {
+      font-family: Open Sans, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 26px;
+      padding: 16px 24px 35px 24px;
+      color: #2A2626; }
