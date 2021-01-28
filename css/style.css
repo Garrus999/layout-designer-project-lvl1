@@ -498,3 +498,69 @@ header a {
       color: #2A2626; }
 
 /*  IKEA   */
+.section-ikea {
+  padding-top: 100px;
+  padding-bottom: 155px;
+  max-width: 1100px;
+  margin: 0px auto; }
+  .section-ikea .ikea-title {
+    display: flex;
+    justify-content: center;
+    position: relative; }
+    .section-ikea .ikea-title .ikea-title-img {
+      padding-right: 30px; }
+    .section-ikea .ikea-title .ikea-title1 {
+      font-family: Neucha;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 29px;
+      color: #908D8B; }
+    .section-ikea .ikea-title .ikea-title2 {
+      font-family: Neucha;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 60px;
+      line-height: 72px;
+      color: #2A2626; }
+    .section-ikea .ikea-title .pb-30 {
+      padding-bottom: 30px; }
+    .section-ikea .ikea-title .ikea-title-text {
+      font-family: Neucha;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 34px;
+      line-height: 41px;
+      color: #2A2626; }
+  .section-ikea .ikea-wrapper {
+    max-width: 1110px;
+    padding: 100px 0 100px 0; }
+    .section-ikea .ikea-wrapper .ikea-wrapper-title {
+      background-color: #B09A81;
+      background-repeat: no-repeat;
+      padding: 4px 0 4px 8px;
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 17px;
+      color: #FFFFFF; }
+    .section-ikea .ikea-wrapper .ikea-wrapper-text {
+      display: flex;
+      padding-top: 24px;
+      justify-content: space-between; }
+      .section-ikea .ikea-wrapper .ikea-wrapper-text .ikea-wrapper-text1 {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        padding-right: 30px;
+        color: #2A2626; }
+      .section-ikea .ikea-wrapper .ikea-wrapper-text .ikea-wrapper-text2 {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        color: #2A2626; }

@@ -342,3 +342,127 @@ header a {
  }   
 
                                             /*  IKEA   */
+
+
+.section-ikea {
+
+    padding-top: 100px;
+    padding-bottom: 155px;
+    max-width: 1100px;
+    margin: 0px auto;
+
+    .ikea-title {
+        
+        display: flex;
+        justify-content: center;
+        position:relative;
+       
+        
+        
+        
+        .ikea-title-img {
+            
+
+            
+            padding-right: 30px;
+            
+        }
+        .ikea-title1 {
+
+            font-family: Neucha;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 29px;
+
+            color: #908D8B;
+
+        }
+        .ikea-title2 {
+
+            font-family: Neucha;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 60px;
+            line-height: 72px;
+            
+            color: #2A2626;
+
+        }
+
+        .pb-30 {
+            padding-bottom: 30px;
+        }
+        .ikea-title-text {
+
+            font-family: Neucha;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 34px;
+            line-height: 41px;
+
+            color: #2A2626;
+
+        }
+
+    }
+
+    .ikea-wrapper {
+
+
+        
+        max-width: 1110px;
+        padding: 100px 0 100px 0;
+        
+        
+
+        
+        .ikea-wrapper-title {
+
+            background-color: #B09A81;
+            background-repeat: no-repeat;
+            padding: 4px 0 4px 8px;
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 17px;
+            
+            color: #FFFFFF;
+        }
+    
+
+    .ikea-wrapper-text {
+
+        display: flex;
+        padding-top: 24px;
+        justify-content: space-between;
+
+        .ikea-wrapper-text1 {
+
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 26px;
+            padding-right: 30px;
+            color: #2A2626;
+         
+
+        }
+
+        .ikea-wrapper-text2 {
+
+            
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 26px;
+            
+            color: #2A2626;
+
+        }
+    }
+}
+}
