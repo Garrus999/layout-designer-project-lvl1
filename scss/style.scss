@@ -436,7 +436,8 @@ header a {
 
         display: flex;
         padding-top: 24px;
-        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
 
         .ikea-wrapper-text1 {
 
@@ -447,7 +448,8 @@ header a {
             line-height: 26px;
             padding-right: 30px;
             color: #2A2626;
-         
+            text-align:start;
+            flex-basis: 550px; 
 
         }
 
@@ -459,9 +461,9 @@ header a {
             font-weight: normal;
             font-size: 16px;
             line-height: 26px;
-            
+            flex-basis: 550px;
             color: #2A2626;
-
+            
         }
     }
 }

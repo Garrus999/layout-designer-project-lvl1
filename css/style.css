@@ -548,7 +548,8 @@ header a {
     .section-ikea .ikea-wrapper .ikea-wrapper-text {
       display: flex;
       padding-top: 24px;
-      justify-content: space-between; }
+      justify-content: center;
+      align-items: center; }
       .section-ikea .ikea-wrapper .ikea-wrapper-text .ikea-wrapper-text1 {
         font-family: Open Sans;
         font-style: normal;
@@ -556,11 +557,14 @@ header a {
         font-size: 16px;
         line-height: 26px;
         padding-right: 30px;
-        color: #2A2626; }
+        color: #2A2626;
+        text-align: start;
+        flex-basis: 550px; }
       .section-ikea .ikea-wrapper .ikea-wrapper-text .ikea-wrapper-text2 {
         font-family: Open Sans;
         font-style: normal;
         font-weight: normal;
         font-size: 16px;
         line-height: 26px;
+        flex-basis: 550px;
         color: #2A2626; }
