@@ -16,7 +16,7 @@ p, h1 {
 }
 
 header p {
-    font-family: Open Sans;
+    font-family: 'OpenSans', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -24,11 +24,15 @@ header p {
 
 }
 header a {
-    font-family: Open Sans;
+    font-family: 'OpenSans', sans-serif;
     font-style: normal;
     font-size: 16px;
     line-height: 160%;
     text-decoration: none;
+}
+
+.background-brown {
+    background: #B09A81;
 }
 
 .bg-img {
@@ -55,23 +59,29 @@ header a {
     
 }
 
+.section-inner {  
+    position: relative;
+    z-index: 1;
+
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 100px 200px;
+
+}
+
 .overflow-hidden {
     overflow: hidden;
 }
+
+.mt-100 {
+    margin-top: -100px;
+} 
+
 
 .section-header {
     padding-bottom: 100px;
     
     
-    .section-inner {  
-        position: relative;
-        z-index: 1;
-    
-        max-width: 1110px;
-        margin: 0 auto;
-        padding: 100px 200px 0px 200px;
-  
-    }
     
     
     .section-header-content {
@@ -89,7 +99,7 @@ header a {
                 left: 165px;
                 top: 284.29px;
 
-                font-family: Neucha;
+                font-family: 'Neucha', sans-serif;
                 font-style: normal;
                 font-weight: normal;
                 font-size: 72px;
@@ -104,7 +114,7 @@ header a {
                 left: 165px;
                 top: 100px;
 
-                font-family: Neucha;
+                font-family: 'Neucha', sans-serif;
                 font-style: normal;
                 font-weight: normal;
                 font-size: 72px;
@@ -190,7 +200,7 @@ header a {
             
 
             .title-black1 {
-                font-family: Neucha;
+                font-family: 'Neucha', sans-serif;
                 font-style: normal;
                 font-weight: normal;
                 font-size: 60px;
@@ -200,7 +210,7 @@ header a {
 
             }
             .title-orange1 {
-                font-family: Neucha;
+                font-family: 'Neucha', sans-serif;
                 font-style: normal;
                 font-weight: normal;
                 font-size: 60px;
@@ -210,7 +220,7 @@ header a {
             }
 
             .text-promo {
-                font-family: Open Sans;
+                font-family: 'OpenSans', sans-serif;
                 font-style: normal;
                 font-weight: normal;
                 font-size: 16px;
@@ -251,7 +261,7 @@ header a {
             text-decoration: none;
             padding-top: 200px;
             padding-bottom: 100px;
-            max-width: 1200px;
+            min-width: 1200px;
             align-items: stretch;
             margin: 0 auto;
 
@@ -261,7 +271,7 @@ header a {
 
             .title-orange2 {
 
-                font-family: Neucha;
+                font-family: 'Neucha', sans-serif;
                 font-style: normal;
                 font-weight: normal;
                 font-size: 52px;
@@ -272,7 +282,7 @@ header a {
             }
             .title-white2 {
 
-                font-family: Neucha;
+                font-family: 'Neucha', sans-serif;
                 font-style: normal;
                 font-weight: normal;
                 font-size: 52px;
@@ -290,6 +300,7 @@ header a {
             }
             .card {
 
+                height: auto;
                 text-decoration: none;
                 max-width: 350px;
                 background-color: #f5f4f0;
@@ -314,7 +325,7 @@ header a {
 
                 .card-title {
 
-                    font-family: Neucha;
+                    font-family: 'Neucha', sans-serif;
                     font-style: normal;
                     font-weight: normal;
                     font-size: 34px;
@@ -344,19 +355,14 @@ header a {
                                             /*  IKEA   */
 
 
-.section-ikea {
-
-    padding-top: 100px;
-    padding-bottom: 155px;
-    max-width: 1100px;
-    margin: 0px auto;
 
     .ikea-title {
         
         display: flex;
         justify-content: center;
         position:relative;
-       
+        align-items: center;
+        flex-grow: 1;
         
         
         
@@ -369,7 +375,7 @@ header a {
         }
         .ikea-title1 {
 
-            font-family: Neucha;
+            font-family: 'Neucha', sans-serif;
             font-style: normal;
             font-weight: normal;
             font-size: 24px;
@@ -380,7 +386,7 @@ header a {
         }
         .ikea-title2 {
 
-            font-family: Neucha;
+            font-family: 'Neucha', sans-serif;
             font-style: normal;
             font-weight: normal;
             font-size: 60px;
@@ -395,7 +401,7 @@ header a {
         }
         .ikea-title-text {
 
-            font-family: Neucha;
+            font-family: 'Neucha', sans-serif;
             font-style: normal;
             font-weight: normal;
             font-size: 34px;
@@ -422,7 +428,7 @@ header a {
             background-color: #B09A81;
             background-repeat: no-repeat;
             padding: 4px 0 4px 8px;
-            font-family: Open Sans;
+            font-family: 'OpenSans', sans-serif;
             font-style: normal;
             font-weight: bold;
             font-size: 14px;
@@ -436,12 +442,11 @@ header a {
 
         display: flex;
         padding-top: 24px;
-        justify-content: center;
-        align-items: center;
+        
 
         .ikea-wrapper-text1 {
 
-            font-family: Open Sans;
+            font-family: 'OpenSans', sans-serif;
             font-style: normal;
             font-weight: normal;
             font-size: 16px;
@@ -456,7 +461,7 @@ header a {
         .ikea-wrapper-text2 {
 
             
-            font-family: Open Sans;
+            font-family: 'OpenSans', sans-serif;
             font-style: normal;
             font-weight: normal;
             font-size: 16px;
@@ -467,4 +472,497 @@ header a {
         }
     }
 }
+
+                                // /*  IKEA   */
+
+
+                                 /*  Optimization    */
+                        
+
+
+    .opt-title {
+        
+        display: flex;
+        justify-content: center;
+        position:relative;
+        align-items: center;
+        flex-grow: 1;
+       
+        
+        
+        
+        .opt-title-img {
+            
+
+            
+            padding-left: 30px;
+            
+        }
+        .opt-title1 {
+
+            font-family: 'Neucha', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 29px;
+
+            color: #D7CCC0;
+
+        }
+        .opt-title2 {
+
+            font-family: 'Neucha', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 60px;
+            line-height: 72px;
+            color: #FFFFFF;
+
+        }
+
+        .pb-30 {
+            padding-bottom: 30px;
+        }
+        .opt-title-text {
+
+            font-family: 'Neucha', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 34px;
+            line-height: 120%;
+
+            color: #FFFFFF;
+
+        }
+
+    }
+
+    .opt-wrapper {
+
+
+        
+        max-width: 1110px;
+        padding: 100px 0 100px 0;
+        
+        
+
+        
+        .opt-wrapper-title {
+
+            background-color: #FFFFFF;
+            background-repeat: no-repeat;
+            padding: 4px 0 4px 8px;
+            font-family: 'OpenSans', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 17px;
+            
+            color: #B09A81;
+        }
+    
+
+    .opt-wrapper-text {
+
+        display: flex;
+        padding-top: 24px;
+        
+
+        .opt-wrapper-text1 {
+
+            font-family: 'OpenSans', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 26px;
+            padding-right: 30px;
+            color: #FFFFFF;
+            text-align:start;
+            flex-basis: 550px; 
+
+        }
+
+        .opt-wrapper-text2 {
+
+            
+            font-family: 'OpenSans', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 26px;
+            flex-basis: 550px;
+            color: #FFFFFF;
+            
+        }
+    }
 }
+                                // /*  Optimization    */
+
+
+                                /*  Distortion    */
+
+.distortion-title {
+        
+        display: flex;
+        justify-content: center;
+        position:relative;
+        align-items: center;
+        flex-grow: 1;
+        
+        
+        
+        .distortion-title-img {
+            
+
+            
+            padding-right: 30px;
+            
+        }
+        .distortion-title1 {
+
+            font-family: 'Neucha', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 29px;
+
+            color: #908D8B;
+
+        }
+        .distortion-title2 {
+
+            font-family: 'Neucha', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 60px;
+            line-height: 72px;
+            
+            color: #2A2626;
+
+        }
+
+        .pb-30 {
+            padding-bottom: 30px;
+        }
+        .distortion-title-text {
+
+            font-family: 'Neucha', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 34px;
+            line-height: 41px;
+
+            color: #2A2626;
+
+        }
+
+    }
+
+    .distortion-wrapper {
+
+
+        
+        max-width: 1110px;
+        padding: 100px 0 100px 0;
+        
+        
+
+        
+        .distortion-wrapper-title {
+
+            background-color: #B09A81;
+            background-repeat: no-repeat;
+            padding: 4px 0 4px 8px;
+            font-family: 'OpenSans', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 17px;
+            
+            color: #FFFFFF;
+        }
+    
+
+    .distortion-wrapper-text {
+
+        display: flex;
+        padding-top: 24px;
+        
+
+        .distortion-wrapper-text1 {
+
+            font-family: 'OpenSans', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 26px;
+            padding-right: 30px;
+            color: #2A2626;
+            text-align:start;
+            flex-basis: 550px; 
+
+        }
+
+        .distortion-wrapper-text2 {
+
+            
+            font-family: 'OpenSans', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 26px;
+            flex-basis: 550px;
+            color: #2A2626;
+            
+        }
+    }
+}
+
+                                //  /*  Distortion    */
+
+
+                                 /*  Hyperbolic   */
+
+.hyper-title {
+        
+        display: flex;
+        justify-content: center;
+        position:relative;
+        align-items: center;
+        flex-grow: 1;
+       
+        
+        
+        
+        .hyper-title-img {
+            
+
+            
+            padding-left: 30px;
+            
+        }
+        .hyper-title1 {
+
+            font-family: 'Neucha', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 29px;
+
+            color: #D7CCC0;
+
+        }
+        .hyper-title2 {
+
+            font-family: 'Neucha', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 60px;
+            line-height: 72px;
+            color: #FFFFFF;
+
+        }
+
+        .pb-30 {
+            padding-bottom: 30px;
+        }
+        .hyper-title-text {
+
+            font-family: 'Neucha', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 34px;
+            line-height: 120%;
+
+            color: #FFFFFF;
+
+        }
+
+    }
+
+    .hyper-wrapper {
+
+
+        
+        max-width: 1110px;
+        padding: 100px 0 100px 0;
+        
+        
+
+        
+        .hyper-wrapper-title {
+
+            background-color: #FFFFFF;
+            background-repeat: no-repeat;
+            padding: 4px 0 4px 8px;
+            font-family: 'OpenSans', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 17px;
+            
+            color: #B09A81;
+        }
+    
+
+    .hyper-wrapper-text {
+
+        display: flex;
+        padding-top: 24px;
+        
+
+        .hyper-wrapper-text1 {
+
+            font-family: 'OpenSans', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 26px;
+            padding-right: 30px;
+            color: #FFFFFF;
+            text-align:start;
+            flex-basis: 550px; 
+
+        }
+
+        .hyper-wrapper-text2 {
+
+            
+            font-family: 'OpenSans', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 26px;
+            flex-basis: 550px;
+            color: #FFFFFF;
+            
+        }
+    }
+}
+
+
+                               //  /*  Hyperbolic   */
+
+
+                                 /*  Planning   */
+
+.plan-title {
+        
+        display: flex;
+        justify-content: center;
+        position:relative;
+        align-items: center;
+        flex-grow: 1;
+        
+        
+        
+        .plan-title-img {
+            
+
+            
+            padding-right: 30px;
+            
+        }
+        .plan-title1 {
+
+            font-family: 'Neucha', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 29px;
+
+            color: #908D8B;
+
+        }
+        .plan-title2 {
+
+            font-family: 'Neucha', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 60px;
+            line-height: 72px;
+            
+            color: #2A2626;
+
+        }
+
+        .pb-30 {
+            padding-bottom: 30px;
+        }
+        .plan-title-text {
+
+            font-family: 'Neucha', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 34px;
+            line-height: 41px;
+
+            color: #2A2626;
+
+        }
+
+    }
+
+    .plan-wrapper {
+
+
+        
+        max-width: 1110px;
+        padding: 100px 0 100px 0;
+        
+        
+
+        
+        .plan-wrapper-title {
+
+            background-color: #B09A81;
+            background-repeat: no-repeat;
+            padding: 4px 0 4px 8px;
+            font-family: 'OpenSans', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 17px;
+            
+            color: #FFFFFF;
+        }
+    
+
+    .plan-wrapper-text {
+
+        display: flex;
+        padding-top: 24px;
+        
+
+        .plan-wrapper-text1 {
+
+            font-family: 'OpenSans', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 26px;
+            padding-right: 30px;
+            color: #2A2626;
+            text-align:start;
+            flex-basis: 550px; 
+
+        }
+
+        .plan-wrapper-text2 {
+
+            
+            font-family: 'OpenSans', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 26px;
+            flex-basis: 550px;
+            color: #2A2626;
+            
+        }
+    }
+}
+                              //   /*  Planning   */
+
+
+
