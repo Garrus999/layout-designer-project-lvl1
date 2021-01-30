@@ -965,4 +965,86 @@ header a {
                               //   /*  Planning   */
 
 
+                                 /*  Footer   */
+.footer {
+
+    position: relative;
+    z-index: 1;
+
+    max-width: 1210px;
+    margin: 0 auto;
+
+    .section-footer {
+
+       
+        background-color: #42413C;
+        height: 190px;
+        display: flex;
+
+        .footer-title {
+
+            font-family: 'Neucha', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 34px;
+            line-height: 120%;
+            color: #FFFFFF;
+            padding: 55px 55px;
+            padding-right: 122px;
+
+        }
+
+        .email {
+
+            .title-email {
+
+                padding-top: 38px;
+                padding-bottom: 9px;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                font-family: 'OpenSans', sans-serif;
+                line-height: 160%;
+                color: #FFFFFF;
+
+
+                
+            }
+
+            .input-email {
+
+                .email-input::placeholder {
+
+                    opacity: 0,2;
+
+                }
+                 .email-input {
+                    
+                    height: 50px;
+                    width: 465px;
+
+                 }
+
+                .button {
+
+                    
+
+                }
+            }
+
+            .email-footer {
+
+            }
+        }
+    }
+}
+
+.text-footer {
+    
+    padding-top: 76px;
+}
+
+                              //   /*  Footer   */
+
+
 
