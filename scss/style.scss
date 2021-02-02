@@ -999,7 +999,7 @@ header a {
             .title-email {
 
                 padding-top: 38px;
-                padding-bottom: 9px;
+               
                 font-style: normal;
                 font-weight: normal;
                 font-size: 18px;
@@ -1013,6 +1013,10 @@ header a {
 
             .input-email {
 
+                padding-top: 9px;
+                display: flex;
+                
+
                 .email-input::placeholder {
 
                     opacity: 0,2;
@@ -1021,19 +1025,40 @@ header a {
                  .email-input {
                     
                     height: 50px;
-                    width: 465px;
+                    width: 423px;
+                    padding: 0;
+                    border: none;
 
                  }
 
                 .button {
 
-                    
+                    width: 70px;
+                    height: 50px;
+                    border: none;
+                    padding: 0;
+                    background-color: #FE8A02;
 
                 }
+
+                .button:hover {
+                    opacity: 0.8;
+                }
+                
             }
 
             .email-footer {
 
+                font-family: 'OpenSans', sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 160%;
+                color: #FFFFFF;
+            }
+
+            .line-decoration {
+                color: white;
             }
         }
     }

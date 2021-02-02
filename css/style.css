@@ -866,18 +866,39 @@ header a {
       padding-right: 122px; }
     .footer .section-footer .email .title-email {
       padding-top: 38px;
-      padding-bottom: 9px;
       font-style: normal;
       font-weight: normal;
       font-size: 18px;
       font-family: 'OpenSans', sans-serif;
       line-height: 160%;
       color: #FFFFFF; }
-    .footer .section-footer .email .input-email .email-input::placeholder {
-      opacity: 0,2; }
-    .footer .section-footer .email .input-email .email-input {
-      height: 50px;
-      width: 465px; }
+    .footer .section-footer .email .input-email {
+      padding-top: 9px;
+      display: flex; }
+      .footer .section-footer .email .input-email .email-input::placeholder {
+        opacity: 0,2; }
+      .footer .section-footer .email .input-email .email-input {
+        height: 50px;
+        width: 423px;
+        padding: 0;
+        border: none; }
+      .footer .section-footer .email .input-email .button {
+        width: 70px;
+        height: 50px;
+        border: none;
+        padding: 0;
+        background-color: #FE8A02; }
+      .footer .section-footer .email .input-email .button:hover {
+        opacity: 0.8; }
+    .footer .section-footer .email .email-footer {
+      font-family: 'OpenSans', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 160%;
+      color: #FFFFFF; }
+    .footer .section-footer .email .line-decoration {
+      color: white; }
 
 .text-footer {
   padding-top: 76px; }
