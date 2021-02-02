@@ -1032,19 +1032,39 @@ header a {
                  }
 
                 .button {
+                    position: relative;
 
                     width: 70px;
                     height: 50px;
                     border: none;
                     padding: 0;
                     background-color: #FE8A02;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                   
 
                 }
 
                 .button:hover {
                     opacity: 0.8;
                 }
+
+                .button::before {
+                    
+                    
+
+                    width: 20px;
+                    height: 20px;
                 
+                    background-image: url("/image/Vector.png");
+                    background-repeat: no-repeat;
+                    background-position: center;
+                
+                    content: "";
+                }
+
             }
 
             .email-footer {
