@@ -514,7 +514,7 @@ header a {
   display: flex;
   justify-content: center;
   position: relative;
-  align-items: center;
+  align-items: flex-start;
   flex-grow: 1; }
   .ikea-title .ikea-title-img {
     padding-right: 30px; }
@@ -582,7 +582,7 @@ header a {
   display: flex;
   justify-content: center;
   position: relative;
-  align-items: center;
+  align-items: flex-start;
   flex-grow: 1; }
   .opt-title .opt-title-img {
     padding-left: 30px; }
@@ -650,7 +650,7 @@ header a {
   display: flex;
   justify-content: center;
   position: relative;
-  align-items: center;
+  align-items: flex-start;
   flex-grow: 1; }
   .distortion-title .distortion-title-img {
     padding-right: 30px; }
@@ -718,7 +718,7 @@ header a {
   display: flex;
   justify-content: center;
   position: relative;
-  align-items: center;
+  align-items: flex-start;
   flex-grow: 1; }
   .hyper-title .hyper-title-img {
     padding-left: 30px; }
@@ -786,7 +786,7 @@ header a {
   display: flex;
   justify-content: center;
   position: relative;
-  align-items: center;
+  align-items: flex-start;
   flex-grow: 1; }
   .plan-title .plan-title-img {
     padding-right: 30px; }

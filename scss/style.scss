@@ -370,6 +370,10 @@ header a {
             }
         }
  }   
+                                         //   /*Navigation*/
+
+
+
 
                                             /*  IKEA   */
 
@@ -380,8 +384,10 @@ header a {
         display: flex;
         justify-content: center;
         position:relative;
-        align-items: center;
+        align-items: flex-start;
         flex-grow: 1;
+        
+        
         
         
         
@@ -399,7 +405,7 @@ header a {
             font-weight: normal;
             font-size: 24px;
             line-height: 29px;
-
+            
             color: #908D8B;
 
         }
@@ -431,6 +437,8 @@ header a {
         }
 
     }
+
+   
 
     .ikea-wrapper {
 
@@ -504,7 +512,7 @@ header a {
         display: flex;
         justify-content: center;
         position:relative;
-        align-items: center;
+        align-items: flex-start;
         flex-grow: 1;
        
         
@@ -625,7 +633,7 @@ header a {
         display: flex;
         justify-content: center;
         position:relative;
-        align-items: center;
+        align-items: flex-start;
         flex-grow: 1;
         
         
@@ -747,7 +755,7 @@ header a {
         display: flex;
         justify-content: center;
         position:relative;
-        align-items: center;
+        align-items: flex-start;
         flex-grow: 1;
        
         
@@ -870,7 +878,7 @@ header a {
         display: flex;
         justify-content: center;
         position:relative;
-        align-items: center;
+        align-items: flex-start;
         flex-grow: 1;
         
         
