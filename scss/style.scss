@@ -13,7 +13,7 @@
 
 
                                            /*GENERAL*/
-p, h1 {
+p, h1, h2 {
     margin: 0px;
     padding: 0px;
 }
@@ -38,9 +38,12 @@ header a {
     background: #B09A81;
 }
 
+.bg-dark {
+    background-color: #42413C;
+ }  
+
 .bg-img {
-    position: relative;
-    
+    position: relative;    
 }
 
 
@@ -134,37 +137,33 @@ header a {
             }
             
             }
-            .section-header-wrapper_img {
-                
+            .section-header-wrapper-img { 
                 position: absolute;
                 width: 1082.81px;
                 left: 461px;
                 top: 55px;
             }
         
-            .section-header-wrapper_text{
-                
+            .section-header-wrapper-text{  
                 display: flex;
                 justify-content: space-between;
                 padding-top: 400px;
                 
                 
-                .text_header1 {
+                .text-header1 {
                    padding-top: 50px;
-                   align-items: flex-end; 
-                    
-                    
-                    width: 550px;
+                   align-items: flex-end;   
+                   width: 550px;
                     
                     
                 }
                 
-                .text_header2 {
+                .text-header2 {
                     padding-top: 50px;
                     width: 550px;
-                    padding-bottom: 30px;
+                    
                     margin-left: 30px;
-                    margin-bottom: 30px;
+                    
                 }
                     
                                 /*Ссылка*/
@@ -197,8 +196,7 @@ header a {
                                              /*PROMO*/                                         
 
 
-    .section-promo {
-        
+    .section-promo {    
         display: flex;
         justify-content: center;
         
@@ -208,8 +206,6 @@ header a {
 
             .title1 {
                 text-align: center;
-                
-                
 
             
 
@@ -230,7 +226,6 @@ header a {
                 font-size: 60px;
                 line-height: 72px;
                 color: #FE8A02;
-
             }
 
             .text-promo {
@@ -241,14 +236,10 @@ header a {
                 line-height: 160%;
                 color: #212529;
                 padding-bottom: 30px;
-
             }
         }
         
-        .video-promo {
-            
-           
-        }
+        
     }
 }
                                         //    /*PROMO*/                            
@@ -258,11 +249,7 @@ header a {
 
 
                          /*Navigation*/
- .bg-dark {
-    background-color: #42413C;
-    
-    
- }  
+ 
   
   .section-nav {
     
@@ -284,9 +271,7 @@ header a {
             align-items: stretch;
             margin: 0 auto;
 
-            
-
-            
+             
 
             .title-orange2 {
 
@@ -393,8 +378,6 @@ header a {
         
         .ikea-title-img {
             
-
-            
             padding-right: 30px;
             
         }
@@ -441,8 +424,6 @@ header a {
    
 
     .ikea-wrapper {
-
-
         
         max-width: 1110px;
         padding: 100px 0 100px 0;
@@ -486,8 +467,7 @@ header a {
         }
 
         .ikea-wrapper-text2 {
-
-            
+         
             font-family: 'OpenSans', sans-serif;
             font-style: normal;
             font-weight: normal;
@@ -519,9 +499,7 @@ header a {
         
         
         .opt-title-img {
-            
-
-            
+                       
             padding-left: 30px;
             
         }
@@ -565,9 +543,7 @@ header a {
     }
 
     .opt-wrapper {
-
-
-        
+   
         max-width: 1110px;
         padding: 100px 0 100px 0;
         
@@ -931,9 +907,7 @@ header a {
     }
 
     .plan-wrapper {
-
-
-        
+   
         max-width: 1110px;
         padding: 100px 0 100px 0;
         
