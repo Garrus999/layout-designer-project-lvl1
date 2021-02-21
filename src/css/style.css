@@ -454,7 +454,7 @@ header a {
 
 /*Navigation*/
 .section-nav {
-  margin-top: -100px; }
+  margin-top: -75px; }
   .section-nav .section-inner .container-nav {
     display: flex;
     flex-direction: row;
