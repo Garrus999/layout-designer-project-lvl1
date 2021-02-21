@@ -564,7 +564,8 @@ header a {
 
 .ikea-wrapper {
   max-width: 1110px;
-  padding-top: 100px; }
+  padding-top: 100px;
+padding-bottom: 115px; }
   .ikea-wrapper .ikea-wrapper-title {
     background-color: #B09A81;
     background-repeat: no-repeat;
@@ -634,8 +635,7 @@ header a {
 
 .opt-wrapper {
   max-width: 1110px;
-  padding-top: 100px;
-  padding-bottom: 80px; }
+  padding-top: 100px; }
   .opt-wrapper .opt-wrapper-title {
     background-color: #FFFFFF;
     background-repeat: no-repeat;
