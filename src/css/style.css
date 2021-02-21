@@ -551,7 +551,7 @@ header a {
 
 .ikea-wrapper {
   max-width: 1110px;
-  padding: 100px 0 100px 0; }
+  padding-top: 100px; }
   .ikea-wrapper .ikea-wrapper-title {
     background-color: #B09A81;
     background-repeat: no-repeat;
@@ -687,7 +687,7 @@ header a {
 
 .distortion-wrapper {
   max-width: 1110px;
-  padding: 100px 0 100px 0; }
+  padding-top: 100px; }
   .distortion-wrapper .distortion-wrapper-title {
     background-color: #B09A81;
     background-repeat: no-repeat;
@@ -755,7 +755,7 @@ header a {
 
 .hyper-wrapper {
   max-width: 1110px;
-  padding: 100px 0 100px 0; }
+  padding-top: 100px; }
   .hyper-wrapper .hyper-wrapper-title {
     background-color: #FFFFFF;
     background-repeat: no-repeat;
@@ -823,7 +823,7 @@ header a {
 
 .plan-wrapper {
   max-width: 1110px;
-  padding: 100px 0 100px 0; }
+  padding-top: 100px; }
   .plan-wrapper .plan-wrapper-title {
     background-color: #B09A81;
     background-repeat: no-repeat;
