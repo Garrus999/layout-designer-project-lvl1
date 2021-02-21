@@ -297,7 +297,7 @@ template {
   display: none; }
 
 /*GENERAL*/
-p, h1, h2 {
+p, h1, h2, h3, h4, h5, h6 {
   margin: 0px;
   padding: 0px; }
 
@@ -564,7 +564,7 @@ header a {
     color: #FFFFFF; }
   .ikea-wrapper .ikea-wrapper-text {
     display: flex;
-    padding-top: 24px; }
+    padding-top: 20px; }
     .ikea-wrapper .ikea-wrapper-text .ikea-wrapper-text1 {
       font-family: 'OpenSans', sans-serif;
       font-style: normal;
@@ -632,7 +632,7 @@ header a {
     color: #B09A81; }
   .opt-wrapper .opt-wrapper-text {
     display: flex;
-    padding-top: 24px; }
+    padding-top: 20px; }
     .opt-wrapper .opt-wrapper-text .opt-wrapper-text1 {
       font-family: 'OpenSans', sans-serif;
       font-style: normal;
@@ -700,7 +700,7 @@ header a {
     color: #FFFFFF; }
   .distortion-wrapper .distortion-wrapper-text {
     display: flex;
-    padding-top: 24px; }
+    padding-top: 20px; }
     .distortion-wrapper .distortion-wrapper-text .distortion-wrapper-text1 {
       font-family: 'OpenSans', sans-serif;
       font-style: normal;
@@ -768,7 +768,7 @@ header a {
     color: #B09A81; }
   .hyper-wrapper .hyper-wrapper-text {
     display: flex;
-    padding-top: 24px; }
+    padding-top: 20px; }
     .hyper-wrapper .hyper-wrapper-text .hyper-wrapper-text1 {
       font-family: 'OpenSans', sans-serif;
       font-style: normal;
@@ -836,7 +836,7 @@ header a {
     color: #FFFFFF; }
   .plan-wrapper .plan-wrapper-text {
     display: flex;
-    padding-top: 24px; }
+    padding-top: 20px; }
     .plan-wrapper .plan-wrapper-text .plan-wrapper-text1 {
       font-family: 'OpenSans', sans-serif;
       font-style: normal;
