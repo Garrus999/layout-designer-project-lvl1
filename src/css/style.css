@@ -334,7 +334,6 @@ header a {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-attachment: scroll;
   opacity: 90%;
   content: ''; }
 
@@ -412,7 +411,7 @@ header a {
       color: white;
       border-radius: 2px; }
     .section-header .section-header-content .section-header-wrapper-text .margin-link {
-      margin: 40px 17px 0px auto; }
+      margin: 50px 17px 0px auto; }
     .section-header .section-header-content .section-header-wrapper-text .text-bold {
       font-weight: bold; }
     .section-header .section-header-content .section-header-wrapper-text .uppercase {
