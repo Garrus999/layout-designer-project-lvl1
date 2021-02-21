@@ -337,6 +337,13 @@ header a {
   opacity: 90%;
   content: ''; }
 
+   .bg-image {
+    
+    background-image: url(../image/image1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   }
 .section-inner {
   position: relative;
   z-index: 1;
@@ -452,7 +459,9 @@ header a {
       padding-top: 30px; }
 
 .video-promo {
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15)); }
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+  border: none;
+    border-radius: 5px; }
 
 /*Navigation*/
 .section-nav {
@@ -619,7 +628,8 @@ header a {
 
 .opt-wrapper {
   max-width: 1110px;
-  padding-top: 100px; }
+  padding-top: 100px;
+  padding-bottom: 80px; }
   .opt-wrapper .opt-wrapper-title {
     background-color: #FFFFFF;
     background-repeat: no-repeat;
