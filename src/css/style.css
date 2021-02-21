@@ -859,8 +859,12 @@ header a {
   .footer .section-footer {
     background-color: #42413C;
     height: 190px;
+<<<<<<< HEAD
     display: flex;
     margin-top: 100px; }
+=======
+    display: flex; }
+>>>>>>> 70397a70891b53fa46eb4fcbe8ca2d3a988755be
     .footer .section-footer .footer-title {
       font-family: 'Neucha', sans-serif;
       font-style: normal;
@@ -919,7 +923,10 @@ header a {
 
 .text-footer {
   padding-top: 76px;
+<<<<<<< HEAD
   padding-bottom: 100px;
+=======
+>>>>>>> 70397a70891b53fa46eb4fcbe8ca2d3a988755be
   text-align: center;
   font-family: 'OpenSans', sans-serif;
   font-style: normal;
