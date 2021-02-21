@@ -565,7 +565,7 @@ header a {
 .ikea-wrapper {
   max-width: 1110px;
   padding-top: 100px;
-padding-bottom: 115px; }
+ }
   .ikea-wrapper .ikea-wrapper-title {
     background-color: #B09A81;
     background-repeat: no-repeat;
@@ -636,7 +636,7 @@ padding-bottom: 115px; }
 .opt-wrapper {
   max-width: 1110px;
   padding-top: 100px;
-padding-bottom: 65px; }
+ }
   .opt-wrapper .opt-wrapper-title {
     background-color: #FFFFFF;
     background-repeat: no-repeat;
@@ -704,7 +704,8 @@ padding-bottom: 65px; }
 
 .distortion-wrapper {
   max-width: 1110px;
-  padding-top: 100px; }
+  padding-top: 100px;
+ }
   .distortion-wrapper .distortion-wrapper-title {
     background-color: #B09A81;
     background-repeat: no-repeat;
@@ -774,7 +775,8 @@ padding-bottom: 65px; }
 
 .hyper-wrapper {
   max-width: 1110px;
-  padding-top: 100px; }
+  padding-top: 100px;
+ }
   .hyper-wrapper .hyper-wrapper-title {
     background-color: #FFFFFF;
     background-repeat: no-repeat;
@@ -844,7 +846,7 @@ padding-bottom: 65px; }
 .plan-wrapper {
   max-width: 1110px;
   padding-top: 100px;
-padding-bottom: 50px; }
+ }
   .plan-wrapper .plan-wrapper-title {
     background-color: #B09A81;
     background-repeat: no-repeat;
