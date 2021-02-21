@@ -854,13 +854,14 @@ header a {
 .footer {
   position: relative;
   z-index: 1;
-  max-width: 1210px;
-  margin: 0 auto; }
+  max-width: 1110px;
+  margin: 0 auto;
+  padding-top: 100px 165px 0 165px; }
   .footer .section-footer {
     background-color: #42413C;
     height: 190px;
     display: flex;
-    margin-top: 100px; }
+     }
     .footer .section-footer .footer-title {
       font-family: 'Neucha', sans-serif;
       font-style: normal;
