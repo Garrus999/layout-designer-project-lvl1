@@ -424,6 +424,7 @@ header a {
   justify-content: center; }
   .section-promo .section-inner .title1 {
     text-align: center;
+    padding-top: 25px;
    }
     .section-promo .section-inner .title1 .title-black1 {
       font-family: 'Neucha', sans-serif;
@@ -431,7 +432,8 @@ header a {
       font-weight: normal;
       font-size: 60px;
       line-height: 72px;
-      color: #2A2626; }
+      color: #2A2626;
+       }
     .section-promo .section-inner .title1 .title-orange1 {
       font-family: 'Neucha', sans-serif;
       font-style: normal;
