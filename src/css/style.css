@@ -635,7 +635,8 @@ padding-bottom: 115px; }
 
 .opt-wrapper {
   max-width: 1110px;
-  padding-top: 100px; }
+  padding-top: 100px;
+padding-bottom: 65px; }
   .opt-wrapper .opt-wrapper-title {
     background-color: #FFFFFF;
     background-repeat: no-repeat;
