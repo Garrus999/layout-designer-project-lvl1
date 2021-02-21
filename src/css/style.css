@@ -1,5 +1,4 @@
 @charset "UTF-8";
-/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
 /**
@@ -388,9 +387,10 @@ header a {
       color: #FE8A02; }
   .section-header .section-header-content .section-header-wrapper-img {
     position: absolute;
-    width: 1082.81px;
-    left: 461px;
-    top: 55px; }
+    top: 55px;
+  right: -105px;
+
+  height: 525px; }
   .section-header .section-header-content .section-header-wrapper-text {
     display: flex;
     justify-content: space-between;
@@ -421,7 +421,8 @@ header a {
   display: flex;
   justify-content: center; }
   .section-promo .section-inner .title1 {
-    text-align: center; }
+    text-align: center;
+  margin-top: 100px; }
     .section-promo .section-inner .title1 .title-black1 {
       font-family: 'Neucha', sans-serif;
       font-style: normal;
@@ -855,8 +856,8 @@ header a {
   position: relative;
   z-index: 1;
   max-width: 1110px;
-  margin: 0 auto;
-  padding-top: 100px 165px 0 165px; }
+  margin: 100 auto;
+  padding: 100px 165px 0 165px; }
   .footer .section-footer {
     background-color: #42413C;
     height: 190px;
