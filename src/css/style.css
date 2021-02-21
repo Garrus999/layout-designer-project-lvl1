@@ -446,7 +446,7 @@ header a {
       font-style: normal;
       font-weight: normal;
       font-size: 16px;
-      line-height: 160%;
+      line-height: 25,6px;
       color: #212529;
       padding-bottom: 30px;
       padding-top: 30px; }
@@ -456,7 +456,7 @@ header a {
 
 /*Navigation*/
 .section-nav {
-  margin-top: -87px; }
+  margin-top: -90px; }
   .section-nav .section-inner .container-nav {
     display: flex;
     flex-direction: row;
