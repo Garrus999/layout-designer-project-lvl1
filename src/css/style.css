@@ -409,7 +409,8 @@ header a {
       background-color: #FE8A02;
       padding: 13px 23px;
       color: white;
-      border-radius: 2px; }
+      border-radius: 2px;
+      margin-bottom: 100px; }
     .section-header .section-header-content .section-header-wrapper-text .margin-link {
       margin: 50px 17px 0px auto; }
     .section-header .section-header-content .section-header-wrapper-text .text-bold {
@@ -423,7 +424,7 @@ header a {
   justify-content: center; }
   .section-promo .section-inner .title1 {
     text-align: center;
-  margin-top: 100px; }
+   }
     .section-promo .section-inner .title1 .title-black1 {
       font-family: 'Neucha', sans-serif;
       font-style: normal;
@@ -445,7 +446,8 @@ header a {
       font-size: 16px;
       line-height: 160%;
       color: #212529;
-      padding-bottom: 30px; }
+      padding-bottom: 30px;
+      padding-top: 30px; }
 
 .video-promo {
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15)); }
