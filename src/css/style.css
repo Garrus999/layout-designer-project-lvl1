@@ -651,7 +651,8 @@ header a {
     color: #B09A81; }
   .opt-wrapper .opt-wrapper-text {
     display: flex;
-    padding-top: 20px; }
+    padding-top: 20px;
+    margin-bottom: 85px; }
     .opt-wrapper .opt-wrapper-text .opt-wrapper-text1 {
       font-family: 'OpenSans', sans-serif;
       font-style: normal;
