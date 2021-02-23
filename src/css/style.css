@@ -1,11 +1,10 @@
-@charset "UTF-8";
 /* Document
    ========================================================================== */
 /**
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-html {
+ html {
   line-height: 1.15;
   /* 1 */
   -webkit-text-size-adjust: 100%;
@@ -17,9 +16,7 @@ html {
  * Remove the margin in all browsers.
  */
 body {
-  margin: 0;
-    margin: 0;
-    overflow-x: hidden; }
+  margin: 0; }
 
 /**
  * Render the `main` element consistently in IE.
@@ -299,13 +296,9 @@ template {
   display: none; }
 
 /*GENERAL*/
- h1, h3, h4, h5, h6 {
+p, h1, h2 {
   margin: 0px;
   padding: 0px; }
-
-.mn-0 {
-  margin: 0;
-}
 
 header p {
   font-family: 'OpenSans', sans-serif;
@@ -320,10 +313,6 @@ header a {
   font-size: 16px;
   line-height: 160%;
   text-decoration: none; }
-
-  .bg-light {
-    background-color: #f5f4f0;
-  }
 
 .background-brown {
   background: #B09A81; }
@@ -342,18 +331,12 @@ header a {
   left: 0;
   background-image: url(../image/image1.png);
   background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll;
   opacity: 90%;
   content: ''; }
 
-   .bg-image {
-    
-    background-image: url(../image/image1.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-   }
 .section-inner {
   position: relative;
   z-index: 1;
@@ -369,9 +352,7 @@ header a {
 
 .pb0 {
   padding-bottom: 0px; }
-.top-30 {
-  padding-top: 30px;
-}
+
 /*HEADER*/
 .section-header .section-header-content {
   display: flex;
@@ -406,7 +387,7 @@ header a {
   .section-header .section-header-content .section-header-wrapper-img {
     position: absolute;
     top: 55px;
-  right: -05px;
+  right: -105px;
 
   height: 525px; }
   .section-header .section-header-content .section-header-wrapper-text {
@@ -424,12 +405,11 @@ header a {
       margin-left: 30px; }
     .section-header .section-header-content .section-header-wrapper-text .header-link {
       background-color: #FE8A02;
-      padding: 12px 24px;
+      padding: 13px 23px;
       color: white;
-      border-radius: 2px;
-      margin-bottom: 100px; }
+      border-radius: 2px; }
     .section-header .section-header-content .section-header-wrapper-text .margin-link {
-      margin: 50px 17px 0px auto; }
+      margin: 40px 17px 0px auto; }
     .section-header .section-header-content .section-header-wrapper-text .text-bold {
       font-weight: bold; }
     .section-header .section-header-content .section-header-wrapper-text .uppercase {
@@ -441,16 +421,14 @@ header a {
   justify-content: center; }
   .section-promo .section-inner .title1 {
     text-align: center;
-    padding-top: 25px;
-   }
+  margin-top: 100px; }
     .section-promo .section-inner .title1 .title-black1 {
       font-family: 'Neucha', sans-serif;
       font-style: normal;
       font-weight: normal;
       font-size: 60px;
       line-height: 72px;
-      color: #2A2626;
-       }
+      color: #2A2626; }
     .section-promo .section-inner .title1 .title-orange1 {
       font-family: 'Neucha', sans-serif;
       font-style: normal;
@@ -463,19 +441,16 @@ header a {
       font-style: normal;
       font-weight: normal;
       font-size: 16px;
-      line-height: 25,6px;
+      line-height: 160%;
       color: #212529;
-      padding-bottom: 30px;
-      padding-top: 30px; }
+      padding-bottom: 30px; }
 
 .video-promo {
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
-  border: none;
-    border-radius: 5px; }
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15)); }
 
 /*Navigation*/
 .section-nav {
-  margin-top: -90px; }
+  margin-top: -100px; }
   .section-nav .section-inner .container-nav {
     display: flex;
     flex-direction: row;
@@ -570,8 +545,7 @@ header a {
 
 .ikea-wrapper {
   max-width: 1110px;
-  padding-top: 100px;
- }
+  padding: 100px 0 100px 0; }
   .ikea-wrapper .ikea-wrapper-title {
     background-color: #B09A81;
     background-repeat: no-repeat;
@@ -584,8 +558,7 @@ header a {
     color: #FFFFFF; }
   .ikea-wrapper .ikea-wrapper-text {
     display: flex;
-    padding-top: 20px;
-    padding-bottom: 100px; }
+    padding-top: 24px; }
     .ikea-wrapper .ikea-wrapper-text .ikea-wrapper-text1 {
       font-family: 'OpenSans', sans-serif;
       font-style: normal;
@@ -595,8 +568,7 @@ header a {
       padding-right: 30px;
       color: #2A2626;
       text-align: start;
-      flex-basis: 550px;
-    margin: 0; }
+      flex-basis: 550px; }
     .ikea-wrapper .ikea-wrapper-text .ikea-wrapper-text2 {
       font-family: 'OpenSans', sans-serif;
       font-style: normal;
@@ -604,8 +576,7 @@ header a {
       font-size: 16px;
       line-height: 26px;
       flex-basis: 550px;
-      color: #2A2626;
-      margin: 0; }
+      color: #2A2626; }
 
 /*  Optimization    */
 .opt-title {
@@ -615,9 +586,7 @@ header a {
   align-items: flex-start;
   flex-grow: 1; }
   .opt-title .opt-title-img {
-    padding-left: 30px;
-    border: none;
-    border-radius: 5px; }
+    padding-left: 30px; }
   .opt-title .opt-title1 {
     font-family: 'Neucha', sans-serif;
     font-style: normal;
@@ -644,8 +613,7 @@ header a {
 
 .opt-wrapper {
   max-width: 1110px;
-  padding-top: 100px;
- }
+  padding: 100px 0 100px 0; }
   .opt-wrapper .opt-wrapper-title {
     background-color: #FFFFFF;
     background-repeat: no-repeat;
@@ -658,8 +626,7 @@ header a {
     color: #B09A81; }
   .opt-wrapper .opt-wrapper-text {
     display: flex;
-    padding-top: 20px;
-     }
+    padding-top: 24px; }
     .opt-wrapper .opt-wrapper-text .opt-wrapper-text1 {
       font-family: 'OpenSans', sans-serif;
       font-style: normal;
@@ -669,8 +636,7 @@ header a {
       padding-right: 30px;
       color: #FFFFFF;
       text-align: start;
-      flex-basis: 550px;
-    margin: 0; }
+      flex-basis: 550px; }
     .opt-wrapper .opt-wrapper-text .opt-wrapper-text2 {
       font-family: 'OpenSans', sans-serif;
       font-style: normal;
@@ -678,8 +644,7 @@ header a {
       font-size: 16px;
       line-height: 26px;
       flex-basis: 550px;
-      color: #FFFFFF;
-      margin: 0; }
+      color: #FFFFFF; }
 
 /*  Distortion    */
 .distortion-title {
@@ -716,8 +681,7 @@ header a {
 
 .distortion-wrapper {
   max-width: 1110px;
-  padding-top: 100px;
- }
+  padding: 100px 0 100px 0; }
   .distortion-wrapper .distortion-wrapper-title {
     background-color: #B09A81;
     background-repeat: no-repeat;
@@ -730,7 +694,7 @@ header a {
     color: #FFFFFF; }
   .distortion-wrapper .distortion-wrapper-text {
     display: flex;
-    padding-top: 20px; }
+    padding-top: 24px; }
     .distortion-wrapper .distortion-wrapper-text .distortion-wrapper-text1 {
       font-family: 'OpenSans', sans-serif;
       font-style: normal;
@@ -758,9 +722,7 @@ header a {
   align-items: flex-start;
   flex-grow: 1; }
   .hyper-title .hyper-title-img {
-    padding-left: 30px;
-    border: none;
-    border-radius: 5px; }
+    padding-left: 30px; }
   .hyper-title .hyper-title1 {
     font-family: 'Neucha', sans-serif;
     font-style: normal;
@@ -787,8 +749,7 @@ header a {
 
 .hyper-wrapper {
   max-width: 1110px;
-  padding-top: 100px;
- }
+  padding: 100px 0 100px 0; }
   .hyper-wrapper .hyper-wrapper-title {
     background-color: #FFFFFF;
     background-repeat: no-repeat;
@@ -801,7 +762,7 @@ header a {
     color: #B09A81; }
   .hyper-wrapper .hyper-wrapper-text {
     display: flex;
-    padding-top: 20px; }
+    padding-top: 24px; }
     .hyper-wrapper .hyper-wrapper-text .hyper-wrapper-text1 {
       font-family: 'OpenSans', sans-serif;
       font-style: normal;
@@ -829,8 +790,7 @@ header a {
   align-items: flex-start;
   flex-grow: 1; }
   .plan-title .plan-title-img {
-    padding-right: 30px;
-   }
+    padding-right: 30px; }
   .plan-title .plan-title1 {
     font-family: 'Neucha', sans-serif;
     font-style: normal;
@@ -857,8 +817,7 @@ header a {
 
 .plan-wrapper {
   max-width: 1110px;
-  padding-top: 100px;
- }
+  padding: 100px 0 100px 0; }
   .plan-wrapper .plan-wrapper-title {
     background-color: #B09A81;
     background-repeat: no-repeat;
@@ -871,7 +830,7 @@ header a {
     color: #FFFFFF; }
   .plan-wrapper .plan-wrapper-text {
     display: flex;
-    padding-top: 20px; }
+    padding-top: 24px; }
     .plan-wrapper .plan-wrapper-text .plan-wrapper-text1 {
       font-family: 'OpenSans', sans-serif;
       font-style: normal;
@@ -898,10 +857,6 @@ header a {
   max-width: 1110px;
   margin: 100 auto;
   padding: 100px 165px 0 165px; }
-  .footer p {
-    margin: 0;
-  }
-
   .footer .section-footer {
     background-color: #42413C;
     height: 190px;
@@ -972,7 +927,3 @@ header a {
   font-weight: normal;
   font-size: 14px;
   line-height: 160%; }
-
-  .text-footer p {
-    margin: 0px;
-  }
