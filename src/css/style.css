@@ -963,3 +963,7 @@ header a {
   font-weight: normal;
   font-size: 14px;
   line-height: 160%; }
+
+  .text-footer p {
+    margin: 0px;
+  }
