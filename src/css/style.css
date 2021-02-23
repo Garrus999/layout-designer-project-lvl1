@@ -317,6 +317,10 @@ header a {
 .background-brown {
   background: #B09A81; }
 
+  .bg-light {
+    background-color: #f5f4f0;
+  }
+
 .bg-dark {
   background-color: #42413C; }
 
