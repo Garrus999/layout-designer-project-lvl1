@@ -299,7 +299,7 @@ template {
   display: none; }
 
 /*GENERAL*/
- h1, h2, h3, h4, h5, h6 {
+p, h1, h2, h3, h4, h5, h6 {
   margin: 0px;
   padding: 0px; }
 
@@ -669,7 +669,7 @@ header a {
       color: #FFFFFF;
       text-align: start;
       flex-basis: 550px;
-      margin: 0; }
+    margin: 0; }
     .opt-wrapper .opt-wrapper-text .opt-wrapper-text2 {
       font-family: 'OpenSans', sans-serif;
       font-style: normal;
