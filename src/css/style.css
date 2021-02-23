@@ -17,7 +17,9 @@ html {
  * Remove the margin in all browsers.
  */
 body {
-  margin: 0; }
+  margin: 0;
+    margin: 0;
+    overflow-x: hidden; }
 
 /**
  * Render the `main` element consistently in IE.
@@ -353,7 +355,7 @@ header a {
   z-index: 1;
   max-width: 1110px;
   margin: 0 auto;
-  padding: 100px 165px; }
+  padding: 130px 165px; }
 
 .overflow-hidden {
   overflow: hidden; }
