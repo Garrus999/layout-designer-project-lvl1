@@ -889,6 +889,10 @@ header a {
   max-width: 1110px;
   margin: 100 auto;
   padding: 100px 165px 0 165px; }
+  .footer p {
+    margin: 0;
+  }
+
   .footer .section-footer {
     background-color: #42413C;
     height: 190px;
