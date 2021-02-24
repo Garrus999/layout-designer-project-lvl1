@@ -310,6 +310,10 @@ template {
   display: none; }
 
 /*GENERAL*/
+
+.pos-r {
+  position: relative;
+}
 p, h1, h2 {
   margin: 0px;
   padding: 0px; }
@@ -405,7 +409,9 @@ header a {
   .section-header .section-header-content .section-header-wrapper-img {
     position: absolute;
     top: 55px;
-  right: -105px;
+    right: -255px;
+
+    display: block;
 
   height: 525px; }
   .section-header .section-header-content .section-header-wrapper-text {
