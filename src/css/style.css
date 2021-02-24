@@ -364,7 +364,7 @@ header a {
   z-index: 1;
   max-width: 1110px;
   margin: 0 auto;
-  padding: 130px 20px; }
+  padding: 100px 0px; }
 
 .overflow-hidden {
   overflow: hidden; }
