@@ -382,7 +382,7 @@ header a {
 
 /*HEADER*/
 .section-header {
-  
+  padding-bottom: 40px;
 }
     .section-header-wrapper-title {
       display: flex;
@@ -403,7 +403,7 @@ header a {
       color: #FE8A02; }
   .section-header .section-header-wrapper-img {
     position: absolute;
-  top: 65px;
+  top: 52px;
   right: -152px;
 
   height: 525px; }
