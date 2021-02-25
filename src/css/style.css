@@ -382,7 +382,7 @@ header a {
 
 /*HEADER*/
 .section-header {
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
     .section-header-wrapper-title {
       display: flex;
