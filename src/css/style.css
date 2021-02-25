@@ -371,7 +371,8 @@ header a {
   z-index: 1;
   max-width: 1110px;
   margin: 0;
-  padding: 155px 165px; }
+  padding: 165px;
+ }
  
 
 .overflow-hidden {
@@ -431,11 +432,9 @@ header a {
     padding-top: 400px;
     /*Ссылка*/ }
     .section-header .section-header-content .section-header-wrapper-text .text-header1 {
-      padding-top: 30px;
       align-items: flex-end;
       width: 550px; }
     .section-header .section-header-content .section-header-wrapper-text .text-header2 {
-      padding-top: 30px;
       width: 550px;
       margin-left: 30px; }
     .section-header .section-header-content .section-header-wrapper-text .header-link {
