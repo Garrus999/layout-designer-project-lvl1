@@ -376,6 +376,9 @@ header a {
   padding-bottom: 0px; }
 
 /*HEADER*/
+.section-header {
+  padding: 30px;
+}
 .section-header .section-header-content {
   display: flex;
   align-items: center;
