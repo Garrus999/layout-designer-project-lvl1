@@ -430,7 +430,7 @@ header a {
   .section-header .section-header-content .section-header-wrapper-text {
     display: flex;
     justify-content: space-between;
-    padding-top: 400px;
+    padding-top: 315px;
     /*Ссылка*/ }
     .section-header .section-header-content .section-header-wrapper-text .text-header1 {
       align-items: flex-end;
