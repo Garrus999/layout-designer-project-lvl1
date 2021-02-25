@@ -366,6 +366,14 @@ header a {
   margin: 0;
   padding: 100px 165px; }
 
+  .container {
+    position: relative;
+  z-index: 1;
+  max-width: 1110px;
+  margin: 0;
+  padding: 155px 165px; }
+ 
+
 .overflow-hidden {
   overflow: hidden; }
 
@@ -377,7 +385,7 @@ header a {
 
 /*HEADER*/
 .section-header {
-  padding: 30px 0;
+  
 }
 .section-header .section-header-content {
   display: flex;
