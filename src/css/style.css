@@ -411,8 +411,8 @@ header a {
       color: #FE8A02; }
   .section-header .section-header-content .section-header-wrapper-img {
     position: absolute;
-    top: 55px;
-    right: -255px;
+    top: 50px;
+    right: 0;
 
     display: block;
 
