@@ -371,7 +371,7 @@ header a {
   z-index: 1;
   max-width: 1110px;
   margin: 0;
-  padding: 240px 165px 100px 165px;
+  padding: 100px 165px 100px 165px;
  }
  
 
@@ -389,37 +389,24 @@ header a {
 .section-header {
   
 }
-.section-header .section-header-content {
-  display: flex;
-  align-items: center;
-  flex-grow: 1; }
-  .section-header .section-header-content .section-header-wrapper {
-    display: flex; }
-    .section-header .section-header-content .section-header-wrapper .title-black {
-      position: absolute;
-      width: 1138px;
-      height: 73.71px;
-      left: 165px;
-      top: 284.29px;
+    .section-header-wrapper-title {
+      display: flex;
+    }
+    .section-header .title-black {
       font-family: 'Neucha', sans-serif;
       font-style: normal;
       font-weight: normal;
       font-size: 72px;
       line-height: 100%;
       color: #2A2626; }
-    .section-header .section-header-content .section-header-wrapper .title-orange {
-      position: absolute;
-      width: 1138px;
-      height: 177.12px;
-      left: 165px;
-      top: 100px;
+    .section-header .title-orange {
       font-family: 'Neucha', sans-serif;
       font-style: normal;
       font-weight: normal;
       font-size: 72px;
       line-height: 86px;
       color: #FE8A02; }
-  .section-header .section-header-content .section-header-wrapper-img {
+  .section-header .section-header-wrapper-img {
     position: absolute;
     top: 50px;
     right: 0;
@@ -427,27 +414,27 @@ header a {
     display: block;
 
   height: 525px; }
-  .section-header .section-header-content .section-header-wrapper-text {
+  .section-header .section-header-wrapper-text {
     display: flex;
     justify-content: space-between;
-    padding-top: 315px;
+    padding-top: 210px;
     /*Ссылка*/ }
-    .section-header .section-header-content .section-header-wrapper-text .text-header1 {
+    .section-header .section-header-wrapper-text .text-header1 {
       align-items: flex-end;
-      width: 550px; }
-    .section-header .section-header-content .section-header-wrapper-text .text-header2 {
-      width: 550px;
+      flex-basis: 550px; }
+    .section-header .section-header-wrapper-text .text-header2 {
+      flex-basis: 550px;
       margin-left: 30px; }
-    .section-header .section-header-content .section-header-wrapper-text .header-link {
+    .section-header .section-header-wrapper-text .header-link {
       background-color: #FE8A02;
       padding: 13px 23px;
       color: white;
       border-radius: 2px; }
-    .section-header .section-header-content .section-header-wrapper-text .margin-link {
+    .section-header .section-header-wrapper-text .margin-link {
       margin: 40px 17px 0px auto; }
-    .section-header .section-header-content .section-header-wrapper-text .text-bold {
+    .section-header .section-header-wrapper-text .text-bold {
       font-weight: bold; }
-    .section-header .section-header-content .section-header-wrapper-text .uppercase {
+    .section-header .section-header-wrapper-text .uppercase {
       text-transform: uppercase; }
 
 /*PROMO*/
