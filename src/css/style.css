@@ -371,7 +371,7 @@ header a {
   z-index: 1;
   max-width: 1110px;
   margin: 0;
-  padding: 165px;
+  padding: 165px 165px 100px 165px;
  }
  
 
