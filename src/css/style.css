@@ -193,11 +193,6 @@ button::-moz-focus-inner,
 /**
  * Restore the focus styles unset by the previous rule.
  */
-button:-moz-focusring,
-[type="button"]:-moz-focusring,
-[type="reset"]:-moz-focusring,
-[type="submit"]:-moz-focusring {
-  outline: 1px dotted ButtonText; }
 
 /**
  * Correct the padding in Firefox.
@@ -363,15 +358,15 @@ header a {
   position: relative;
   z-index: 1;
   max-width: 1110px;
-  margin: 0;
-  padding: 100px 165px; }
+  margin: 0 auto;
+  padding: 100px 0; }
 
   .container {
     position: relative;
   z-index: 1;
   max-width: 1110px;
-  margin: 0;
-  padding: 100px 165px 100px 165px;
+  margin: 0 auto;
+  padding: 130px 15px;
  }
  
 
@@ -408,16 +403,18 @@ header a {
       color: #FE8A02; }
   .section-header .section-header-wrapper-img {
     position: absolute;
-    top: 50px;
-    right: 0;
-
-    display: block;
+  top: 76px;
+  right: -152px;
 
   height: 525px; }
   .section-header .section-header-wrapper-text {
     display: flex;
-    justify-content: space-between;
-    padding-top: 210px;
+    flex-direction: row;
+    flex-basis: 100%;
+    flex-grow: 1;
+    padding-top: 190px;
+    padding-right: 15px;
+    padding-left: 15px;
     /*Ссылка*/ }
     .section-header .section-header-wrapper-text .text-header1 {
       align-items: flex-end;
