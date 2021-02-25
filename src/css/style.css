@@ -382,7 +382,7 @@ header a {
 
 /*HEADER*/
 .section-header {
-  padding-bottom: 30px;
+  padding-bottom: 40px;
 }
     .section-header-wrapper-title {
       display: flex;
@@ -412,7 +412,7 @@ header a {
     flex-direction: row;
     flex-basis: 100%;
     flex-grow: 1;
-    padding-top: 200px;
+    padding-top: 220px;
     padding-right: 15px;
     padding-left: 15px;
     /*Ссылка*/ }
