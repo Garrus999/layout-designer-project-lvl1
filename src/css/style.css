@@ -403,7 +403,7 @@ header a {
       color: #FE8A02; }
   .section-header .section-header-wrapper-img {
     position: absolute;
-  top: 76px;
+  top: 65px;
   right: -152px;
 
   height: 525px; }
@@ -412,7 +412,7 @@ header a {
     flex-direction: row;
     flex-basis: 100%;
     flex-grow: 1;
-    padding-top: 190px;
+    padding-top: 220px;
     padding-right: 15px;
     padding-left: 15px;
     /*Ссылка*/ }
