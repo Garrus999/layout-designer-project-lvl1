@@ -379,7 +379,13 @@ header a {
 .pb0 {
   padding-bottom: 0px; }
 
+.pr-30 {
+  padding-right: 30px;
+}
 
+.mb-20 {
+  margin-bottom: 20px;
+}
 /*HEADER*/
 .section-header {
   padding-bottom: 20px;
@@ -482,7 +488,6 @@ header a {
     flex-direction: row;
     flex-wrap: wrap;
     position: relative;
-    justify-content: center;
     text-decoration: none;
     padding-top: 100px;
     min-width: 1200px;
