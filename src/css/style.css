@@ -343,7 +343,7 @@ header a {
 .bg-img:before {
   position: absolute;
   top: 0;
-  right: 0;
+  right: 50px;
   bottom: 0;
   left: 0;
   background-image: url(../image/image1.png);
@@ -412,7 +412,7 @@ header a {
     flex-direction: row;
     flex-basis: 100%;
     flex-grow: 1;
-    padding-top: 215px;
+    padding-top: 220px;
     padding-right: 15px;
     padding-left: 15px;
     /*Ссылка*/ }
