@@ -343,8 +343,8 @@ header a {
 .bg-img:before {
   position: absolute;
   top: 0;
-  right: 50px;
-  bottom: 0;
+  right: 10px;
+  bottom: -43;
   left: 0;
   background-image: url(../image/image1.png);
   background-repeat: no-repeat;
