@@ -388,6 +388,9 @@ position: relative;
   padding: 105px 15px;
  }
  
+ .image {
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+ }
 
 .overflow-hidden {
   overflow: hidden; }
