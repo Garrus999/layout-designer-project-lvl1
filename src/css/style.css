@@ -354,6 +354,25 @@ header a {
   opacity: 90%;
   content: ''; }
 
+.bg-img-section {
+position: relative;
+}
+
+.bg-img-section:before {
+  position: absolute;
+  top: 0;
+  right: -75px;
+  bottom: -43px;
+  left: 0;
+  background-image: url(../image/image1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll;
+  opacity: 90%;
+  content: '';
+}
+
 .section-inner {
   position: relative;
   z-index: 1;
