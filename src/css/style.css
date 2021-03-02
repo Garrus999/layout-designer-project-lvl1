@@ -674,7 +674,7 @@ position: relative;
 
 .opt-wrapper {
   max-width: 1110px;
-  padding: 100px 0 100px 0; }
+  padding: 100px 0 0 0; }
   .opt-wrapper .opt-wrapper-title {
     background-color: #FFFFFF;
     background-repeat: no-repeat;
@@ -742,7 +742,7 @@ position: relative;
 
 .distortion-wrapper {
   max-width: 1110px;
-  padding: 100px 0 100px 0; }
+  padding: 100px 0 15px 0; }
   .distortion-wrapper .distortion-wrapper-title {
     background-color: #B09A81;
     background-repeat: no-repeat;
@@ -810,7 +810,7 @@ position: relative;
 
 .hyper-wrapper {
   max-width: 1110px;
-  padding: 100px 0 100px 0; }
+  padding: 100px 0 15px 0; }
   .hyper-wrapper .hyper-wrapper-title {
     background-color: #FFFFFF;
     background-repeat: no-repeat;
