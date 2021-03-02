@@ -169,7 +169,7 @@ header a {
   flex-grow: 1;
   padding-top: 220px;
   padding-right: 15px;
-  padding-left: 15px; 
+  padding-left: 15px;
 }
 
 /* Ссылка */
@@ -816,7 +816,7 @@ header a {
 }
 
 .footer .section-footer .email .input-email .email-input::placeholder {
-  opacity: 0,2;
+  opacity: 0.2;
 }
 
 .footer .section-footer .email .input-email .email-input {
