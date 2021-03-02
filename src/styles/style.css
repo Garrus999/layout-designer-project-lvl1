@@ -26,7 +26,7 @@ body {
   background-color: #fff; }
 
   img {
-    max-width: 100;
+    
     height: auto;
   
     vertical-align: middle;
@@ -916,7 +916,6 @@ position: relative;
   position: relative;
   z-index: 1;
   max-width: 1110px;
-  margin: 100 auto;
   padding: 100px 165px 0 165px; }
   .footer .section-footer {
     background-color: #42413C;
